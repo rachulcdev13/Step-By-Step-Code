@@ -1,6 +1,7 @@
 import React, { useRef } from 'react'
 import { Form,Button } from 'react-bootstrap'
 import ForwardRef from './ForwardRef'; 
+import ControlledComp from './ControlledComp';
 
 
 const UseRef = () => {
@@ -40,7 +41,8 @@ const UseRef = () => {
             <div>
             <ForwardRef ref={inputForwardRef} />
                 <Button variant="primary" onClick={getRefValue}> Forward Ref</Button>
-            </div>
+            </div> <hr></hr>
+            <ControlledComp />
         </>
     )
 }
