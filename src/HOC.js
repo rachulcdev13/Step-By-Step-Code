@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Button } from 'react-bootstrap'
+import DyanamicRouting from './DyanamicRouting'
 
 const HOC = () => {
     return (
@@ -13,7 +14,8 @@ const HOC = () => {
                 <HighOrderRed data={Counter} />
                 <HighOrderGreen data={Counter} />
                 <HighOrderOrange data={Counter} />
-            </div>
+            </div><hr></hr>
+            <DyanamicRouting />
         </>
     )
 }
