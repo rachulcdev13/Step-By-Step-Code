@@ -1,20 +1,19 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import { Container } from "react-bootstrap";
 import Footer from "./Footer";
-import Header from "./Header";
-import Student from "./Student";  
+import Header from "./RouterComponents/Header";
+import Router from "./RouterComponents/Router";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <Header />
-      <Container>
-        <Student name={"Mr.Rahul"}
-        />
-      </Container>
-      <Footer />
+      <BrowserRouter>
+        <Header />
+        <Router />
+        <Footer />
+      </BrowserRouter>
     </>
   );
 }

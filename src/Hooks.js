@@ -97,7 +97,7 @@ const Hooks = () => {
     return (
         <>
             <div className="container">
-                <h6> Handle Array With Listing And Map function : </h6>
+                <h6> Handle Array With Listing And Map function : </h6><br />
 
                 <Table striped bordered hover size="sm" variant="default" style={{ textAlign: "center" }}>
                     <tbody>
@@ -138,7 +138,7 @@ const Hooks = () => {
             </div><hr></hr>
 
             <div className="container">
-                <h6> Nested List with nested array in ReactJs : </h6>
+                 <h6> Nested List with nested array in ReactJs : </h6><br />
                 <Table striped bordered hover size="sm" variant="dark" style={{ textAlign: "center" }}>
                     <tbody>
                         <tr style={{ fontWeight: "bold" }}>
