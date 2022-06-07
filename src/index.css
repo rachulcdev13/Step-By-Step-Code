@@ -17,3 +17,7 @@
     letter-spacing: 2px;
     font-size: 20px;
 } 
+.navlinks{
+    text-decoration: none;
+    color: rgb(67, 149, 226);
+}

@@ -160,10 +160,7 @@ const Home = (props) => {
 
             <div className="container">
                 <Hooks />
-            </div><hr></hr>
-
-
-
+            </div> 
             <br /><br /><br /><br />
         </>
     )

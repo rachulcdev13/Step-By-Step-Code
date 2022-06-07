@@ -15,7 +15,7 @@ const HOC = () => {
                 <HighOrderGreen data={Counter} />
                 <HighOrderOrange data={Counter} />
             </div><hr></hr>
-            <DyanamicRouting />
+            <DyanamicRouting /> 
         </>
     )
 }
